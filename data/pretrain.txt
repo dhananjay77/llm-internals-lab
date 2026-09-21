@@ -1,0 +1,59 @@
+Domain Driven Design
+
+Domain Driven Design, commonly called DDD, is a software design approach
+that focuses on the business domain and its rules. The domain model represents
+important business concepts and relationships.
+
+An entity is an object that has a persistent identity. Two entities may have
+the same attributes but are still different objects if their identities differ.
+
+A value object is defined by its attributes rather than by a unique identity.
+Value objects are usually immutable.
+
+An aggregate is a cluster of domain objects that is treated as a single unit
+for data changes. The aggregate root controls access to objects inside the
+aggregate.
+
+A bounded context defines a boundary within which a particular domain model
+has a consistent meaning. The same business term can have different meanings
+in different bounded contexts.
+
+Event driven architecture
+
+Event driven architecture is a software architecture in which components
+communicate by producing and consuming events. An event represents something
+that has happened in a system.
+
+A producer publishes an event without requiring the consumer to process it
+synchronously. Consumers subscribe to events that are relevant to them.
+
+Event driven systems can improve scalability and reduce coupling between
+services. Message brokers such as Kafka can be used to transport events.
+
+Microservices
+
+Microservices architecture decomposes an application into independently
+deployable services. Each service generally owns a specific business
+capability and its associated data.
+
+A well designed microservice has a clear responsibility and a defined
+interface. Services can communicate using synchronous APIs or asynchronous
+events.
+
+Cloud architecture
+
+Cloud architecture uses computing resources such as virtual machines,
+containers, managed databases, storage and networking services.
+
+Containers package an application together with its runtime dependencies.
+Kubernetes is a platform for deploying and managing containerized workloads.
+
+Observability
+
+Observability helps engineers understand the internal state of a system from
+its external outputs. Logs, metrics and traces are common observability
+signals.
+
+Distributed tracing allows engineers to follow a request across multiple
+services. It is useful for identifying latency and failures in distributed
+systems.

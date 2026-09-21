@@ -1,0 +1,20 @@
+{"instruction":"What is Domain-Driven Design?","response":"Domain-Driven Design (DDD) is a software design approach that focuses on modeling software around the business domain, its concepts, rules, and processes."}
+{"instruction":"What is an entity in DDD?","response":"An entity is a domain object that has a unique identity that remains consistent even when its attributes change."}
+{"instruction":"What is a value object?","response":"A value object is a domain object defined by its attributes rather than by a unique identity. Value objects are commonly immutable."}
+{"instruction":"What is an aggregate?","response":"An aggregate is a group of related domain objects treated as one consistency boundary. The aggregate root controls access to objects inside the aggregate."}
+{"instruction":"What is a bounded context?","response":"A bounded context is a boundary within which a particular domain model has a consistent meaning and vocabulary."}
+{"instruction":"Why are bounded contexts useful?","response":"Bounded contexts allow different parts of a business to use models and terminology appropriate to their own responsibilities without forcing one model to represent everything."}
+{"instruction":"What is event-driven architecture?","response":"Event-driven architecture is an architecture style in which components communicate by producing and consuming events that represent things that have happened."}
+{"instruction":"What is an event?","response":"An event is a record or message describing something that has already happened in a system, such as an order being created."}
+{"instruction":"What is a producer in event-driven architecture?","response":"A producer is a component that creates and publishes events without requiring consumers to process them synchronously."}
+{"instruction":"What is a consumer?","response":"A consumer is a component that receives or subscribes to events and performs processing based on those events."}
+{"instruction":"What is a microservice?","response":"A microservice is an independently deployable service that typically owns a specific business capability and has a clearly defined interface."}
+{"instruction":"Why use microservices?","response":"Microservices can allow teams to develop, deploy, scale, and evolve individual business capabilities independently, although they also introduce distributed-system complexity."}
+{"instruction":"What is observability?","response":"Observability is the ability to understand the internal state and behavior of a system from its external outputs, commonly using logs, metrics, and traces."}
+{"instruction":"What is distributed tracing?","response":"Distributed tracing follows a request as it travels through multiple services and helps engineers identify latency, failures, and dependencies."}
+{"instruction":"What is Kubernetes?","response":"Kubernetes is a platform for deploying, managing, scaling, and orchestrating containerized applications."}
+{"instruction":"What is a container?","response":"A container packages an application together with its runtime dependencies so it can run consistently across environments."}
+{"instruction":"How do microservices communicate?","response":"Microservices can communicate synchronously through APIs or asynchronously through messaging and events."}
+{"instruction":"How does event-driven architecture reduce coupling?","response":"Producers can publish events without directly depending on how consumers process them. This can reduce direct dependencies between components."}
+{"instruction":"Explain DDD and microservices together.","response":"DDD can help identify business boundaries and bounded contexts, which can provide useful boundaries for microservices. The two concepts are related but are not the same thing."}
+{"instruction":"Explain observability to a software engineer.","response":"Observability uses signals such as logs, metrics, and traces to help engineers understand what is happening inside a running system and diagnose problems."}

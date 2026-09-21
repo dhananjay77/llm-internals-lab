@@ -1,0 +1,79 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+
+.venv/
+venv/
+env/
+
+# Python tooling
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Hugging Face / Transformers cache
+
+.cache/
+huggingface/
+transformers/
+datasets/
+
+# Model outputs / checkpoints
+
+output/
+checkpoints/
+runs/
+
+# Large model files
+
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# OS / IDE
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+
+*.log
+
+# Local environment / secrets
+
+.env
+.env.*
+
+# Temporary files
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.TemporaryItems/
+
+# Training outputs
+output/
+checkpoints/
+runs/
+
+# Model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
